@@ -21,6 +21,8 @@ public class Average
     
     double average = sum / count;
     System.out.println("Average = " + average);
+
+    scanner.close(); // close scanner
     
   }
 
